@@ -1,0 +1,10 @@
+infrastructure:
+  name: "Ramanjeet-Production-Network"
+  region: "us-west-2"
+  servers:
+    - name: "web-server-node"
+      type: "t2.micro"
+      count: 1
+    - name: "database-node"
+      type: "t3.medium"
+      count: 1
